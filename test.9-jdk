@@ -1,0 +1,450 @@
+System property jdk.tls.client.cipherSuites is set to 'null'
+System property jdk.tls.server.cipherSuites is set to 'null'
+Ignoring disabled cipher suite: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_MD5
+Inaccessible trust store: /usr/lib/jvm/java-9-openjdk-amd64/lib/security/jssecacerts
+trustStore is: /usr/lib/jvm/java-9-openjdk-amd64/lib/security/cacerts
+trustStore type is: pkcs12
+trustStore provider is: 
+the last modified time is: Tue Dec 12 15:27:07 UTC 2017
+Reload the trust store
+Reload trust certs
+Reloaded 0 trust certs
+keyStore is : 
+keyStore type is : pkcs12
+keyStore provider is : 
+init keystore
+init keymanager of type SunX509
+trigger seeding of SecureRandom
+done seeding SecureRandom
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+main, setSoTimeout(0) called
+main, the previous server name in SNI (type=host_name (0), value=www.google.com) was replaced with (type=host_name (0), value=www.google.com)
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 for TLSv1.1
+%% No cached client session
+update handshake state: client_hello[1]
+upcoming handshake states: server_hello[2]
+*** ClientHello, TLSv1.2
+RandomCookie:  random_bytes = {C6 1D C6 44 99 71 44 79 E2 77 3B 9A E1 CE 4B B9 38 A5 D1 08 41 19 EA A0 45 0C 50 8C 02 29 23 E9}
+Session ID:  {}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1, secp256k1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA256withDSA, SHA224withECDSA, SHA224withRSA, SHA224withDSA, SHA1withECDSA, SHA1withRSA, SHA1withDSA
+Extension server_name, server_name: [type=host_name (0), value=www.google.com]
+Extension status_request_v2
+CertStatusReqItemV2: ocsp_multi, OCSPStatusRequest
+    ResponderIds: <EMPTY>
+    Extensions: <EMPTY>
+CertStatusReqItemV2: ocsp, OCSPStatusRequest
+    ResponderIds: <EMPTY>
+    Extensions: <EMPTY>
+Extension status_request: ocsp, OCSPStatusRequest
+    ResponderIds: <EMPTY>
+    Extensions: <EMPTY>
+***
+main, WRITE: TLSv1.2 Handshake, length = 261
+main, READ: TLSv1.2 Handshake, length = 87
+check handshake state: server_hello[2]
+*** ServerHello, TLSv1.2
+RandomCookie:  random_bytes = {5A 46 9C 78 FF 08 33 2E 9E 7C 74 E8 7B 3A 7D 5B B6 D2 09 5B 8D B1 0A C4 84 3F B0 5E 2C 6D 76 CA}
+Session ID:  {148, 73, 215, 186, 118, 144, 20, 255, 251, 144, 37, 66, 248, 56, 18, 6, 245, 30, 34, 31, 232, 72, 21, 190, 73, 121, 115, 200, 26, 16, 17, 237}
+Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension ec_point_formats, formats: [uncompressed]
+***
+%% Initialized:  [Session-2, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256]
+** TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+update handshake state: server_hello[2]
+upcoming handshake states: server certificate[11]
+upcoming handshake states: server_key_exchange[12](optional)
+upcoming handshake states: certificate_request[13](optional)
+upcoming handshake states: server_hello_done[14]
+upcoming handshake states: client certificate[11](optional)
+upcoming handshake states: client_key_exchange[16]
+upcoming handshake states: certificate_verify[15](optional)
+upcoming handshake states: client change_cipher_spec[-1]
+upcoming handshake states: client finished[20]
+upcoming handshake states: server change_cipher_spec[-1]
+upcoming handshake states: server finished[20]
+main, READ: TLSv1.2 Handshake, length = 2940
+check handshake state: certificate[11]
+update handshake state: certificate[11]
+upcoming handshake states: server_key_exchange[12](optional)
+upcoming handshake states: certificate_request[13](optional)
+upcoming handshake states: server_hello_done[14]
+upcoming handshake states: client certificate[11](optional)
+upcoming handshake states: client_key_exchange[16]
+upcoming handshake states: certificate_verify[15](optional)
+upcoming handshake states: client change_cipher_spec[-1]
+upcoming handshake states: client finished[20]
+upcoming handshake states: server change_cipher_spec[-1]
+upcoming handshake states: server finished[20]
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: CN=www.google.com, O=Google Inc, L=Mountain View, ST=California, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun EC public key, 256 bits
+  public x coord: 15151245958121872842976981075178223567852897028122005165819640167306144151982
+  public y coord: 103627135750780029079978218394008610117403559347828150901102350800655775629973
+  parameters: secp256r1 [NIST P-256, X9.62 prime256v1] (1.2.840.10045.3.1.7)
+  Validity: [From: Wed Nov 29 09:47:03 UTC 2017,
+               To: Wed Feb 21 09:37:00 UTC 2018]
+  Issuer: CN=Google Internet Authority G2, O=Google Inc, C=US
+  SerialNumber: [    3855b05b f035fd5d]
+
+Certificate Extensions: 9
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: caIssuers
+   accessLocation: URIName: http://pki.google.com/GIAG2.crt
+, 
+   accessMethod: ocsp
+   accessLocation: URIName: http://clients1.google.com/ocsp
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 4A DD 06 16 1B BC F6 68   B5 76 F5 81 B6 BB 62 1A  J......h.v....b.
+0010: BA 5A 81 2F                                        .Z./
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://pki.google.com/GIAG2.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.3.6.1.4.1.11129.2.5.1]
+[]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+]
+
+[8]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: www.google.com
+]
+
+[9]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CB 39 95 CD 68 7B F0 9E   72 E8 9B FD CA EE B1 52  .9..h...r......R
+0010: E9 E4 E8 92                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 89 F8 6C CB E6 90 E6 95   B3 D7 95 9A 41 9F 3E AF  ..l.........A.>.
+0010: 7B 04 7D 59 49 62 E8 0E   48 35 E7 2C 71 78 D2 65  ...YIb..H5.,qx.e
+0020: AF 4F FD 38 A2 67 4B 9F   4A 4F CC 09 1D 4D B6 E5  .O.8.gK.JO...M..
+0030: 96 E6 FC E9 81 11 E4 C8   35 2D 07 86 46 90 E3 72  ........5-..F..r
+0040: 5A 6F 34 93 6F 74 46 71   79 CD 28 99 58 AE FC 73  Zo4.otFqy.(.X..s
+0050: 7E 89 0A E8 A7 A4 80 FE   E2 5B 85 FA 18 F5 97 BA  .........[......
+0060: E7 0C 3F CD 0F 5C 76 6C   10 E5 CC D8 AE 2E 25 17  ..?..\vl......%.
+0070: 1A 26 13 EF A2 E8 89 E0   01 36 69 80 A3 16 C7 33  .&.......6i....3
+0080: C3 99 DB 51 61 BE E3 DB   85 71 4B 7E 77 D9 9F 9E  ...Qa....qK.w...
+0090: 68 47 14 90 D0 FC A7 AE   88 BD 69 BD BA F5 61 AA  hG........i...a.
+00A0: 46 D8 E9 98 42 69 6C 46   D2 C4 6C E8 92 45 68 06  F...BilF..l..Eh.
+00B0: A0 5F 66 73 F9 E8 50 D9   7D 77 87 E5 43 DA 00 64  ._fs..P..w..C..d
+00C0: 28 85 13 67 69 2B 39 E6   E8 D0 CD FE 41 C7 F6 A5  (..gi+9.....A...
+00D0: 12 06 F4 87 08 7C 22 7A   A1 A7 9F 32 74 5B 82 6A  ......"z...2t[.j
+00E0: BB E5 A0 97 74 33 E1 92   D5 3F 9B D5 B1 EA 0C 49  ....t3...?.....I
+00F0: 2B A8 AE 1A 6B 3F 85 0E   7A 05 85 DF 8B EE FC 53  +...k?..z......S
+
+]
+chain [1] = [
+[
+  Version: V3
+  Subject: CN=Google Internet Authority G2, O=Google Inc, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 19713895149719550196537065661910573762693934593220985668782860735427060889140793885919063737778303548724916253252606564904177491762533295616984617709378739783748100146882543612565825906799282133510087546060971220666055151463898734279731009956582933624646298029265838127046200538496591314458940937082185029845612274584845875286257057247598474925565775989866310636633768255501748172403430876460228793912189332026189491067186811703150477068536877439284697584041860237489395099402658887745588613142391209024263265842301844868193180477031165936332420984796347731387363914950895491332976177715889375379088870580457661428329
+  public exponent: 65537
+  Validity: [From: Mon May 22 11:32:37 UTC 2017,
+               To: Mon Dec 31 23:59:59 UTC 2018]
+  Issuer: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  SerialNumber: [    01002125 88b0fa59 a777ef05 7b6627df]
+
+Certificate Extensions: 8
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://g.symcd.com
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://g.symcb.com/crls/gtglobal.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.3.6.1.4.1.11129.2.5.1]
+[]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[8]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4A DD 06 16 1B BC F6 68   B5 76 F5 81 B6 BB 62 1A  J......h.v....b.
+0010: BA 5A 81 2F                                        .Z./
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: CA 49 E5 AC D7 64 64 77   5B BE 71 FA CF F4 1E 23  .I...ddw[.q....#
+0010: C7 9A 69 63 54 5F EB 4C   D6 19 28 23 64 66 8E 1C  ..icT_.L..(#df..
+0020: C7 87 80 64 5F 04 8B 26   AF 98 DF 0A 70 BC BC 19  ...d_..&....p...
+0030: 3D EE 7B 33 A9 7F BD F4   05 D4 70 BB 05 26 79 EA  =..3......p..&y.
+0040: 9A C7 98 B9 07 19 65 34   CC 3C E9 3F C5 01 FA 6F  ......e4.<.?...o
+0050: 0C 7E DB 7A 70 5C 4C FE   2D 00 F0 CA BE 2D 8E B4  ...zp\L.-....-..
+0060: A8 80 FB 01 13 88 CB 9C   3F E5 BB 77 CA 3A 67 36  ........?..w.:g6
+0070: F3 CE D5 27 02 72 43 A0   BD 6E 02 F1 47 05 71 3E  ...'.rC..n..G.q>
+0080: 01 59 E9 11 9E 1A F3 84   0F 80 A6 A2 78 35 2F B6  .Y..........x5/.
+0090: C7 A2 7F 17 7C E1 8B 56   AE EE 67 88 51 27 30 60  .......V..g.Q'0`
+00A0: A5 62 52 C3 37 D5 3B EA   85 2A 01 38 87 A2 CF 70  .bR.7.;..*.8...p
+00B0: AD A4 7A C9 C4 E7 CA C5   DA BC 23 32 F2 FE 18 C2  ..z.......#2....
+00C0: 7B E0 DF 3B 2F D4 D0 10   E6 96 4C FB 44 B7 21 64  ...;/.....L.D.!d
+00D0: 0D B9 00 94 30 12 26 87   58 98 39 05 38 0F CC 82  ....0.&.X.9.8...
+00E0: 48 0C 0A 47 66 EE BF B4   5F C4 FF 70 A8 E1 7F 8B  H..Gf..._..p....
+00F0: 79 2B B8 65 32 A3 B9 B7   31 E9 0A F5 F6 1F 32 DC  y+.e2...1.....2.
+
+]
+chain [2] = [
+[
+  Version: V3
+  Subject: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 27620593608073140957439440929253438012688864718977347268272053725994928948867769687165112265058896553974818505070806430256424431940072485024407486246475597522063246121214348496326377341879755851197260401080498544606788760407243324127929930612201002157618691487713632251700065187865963692723720912135393438861302779432180613616167225206519123176430362410262429702404863434904116727055203524505580952824336979641923534005571504410997292144760317953739063178352809680844232935574095508445145910310675421726257114605895831426222686272114090063230017292595425393719031924942422176213538487957041730136782988405751614792953
+  public exponent: 65537
+  Validity: [From: Tue May 21 04:00:00 UTC 2002,
+               To: Tue Aug 21 04:00:00 UTC 2018]
+  Issuer: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+  SerialNumber: [    12bbe6]
+
+Certificate Extensions: 6
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 48 E6 68 F9 2B D2 B2 95   D7 47 D8 23 20 10 4F 33  H.h.+....G.# .O3
+0010: 98 90 9F D4                                        ....
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[3]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.geotrust.com/crls/secureca.crl]
+]]
+
+[4]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 2D 68 74 74 70 73 3A   2F 2F 77 77 77 2E 67 65  .-https://www.ge
+0010: 6F 74 72 75 73 74 2E 63   6F 6D 2F 72 65 73 6F 75  otrust.com/resou
+0020: 72 63 65 73 2F 72 65 70   6F 73 69 74 6F 72 79     rces/repository
+
+]]  ]
+]
+
+[5]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[6]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 76 E1 12 6E 4E 4B 16 12   86 30 06 B2 81 08 CF F0  v..nNK...0......
+0010: 08 C7 C7 71 7E 66 EE C2   ED D4 3B 1F FF F0 F0 C8  ...q.f....;.....
+0020: 4E D6 43 38 B0 B9 30 7D   18 D0 55 83 A2 6A CB 36  N.C8..0...U..j.6
+0030: 11 9C E8 48 66 A3 6D 7F   B8 13 D4 47 FE 8B 5A 5C  ...Hf.m....G..Z\
+0040: 73 FC AE D9 1B 32 19 38   AB 97 34 14 AA 96 D2 EB  s....2.8..4.....
+0050: A3 1C 14 08 49 B6 BB E5   91 EF 83 36 EB 1D 56 6F  ....I......6..Vo
+0060: CA DA BC 73 63 90 E4 7F   7B 3E 22 CB 3D 07 ED 5F  ...sc....>".=.._
+0070: 38 74 9C E3 03 50 4E A1   AF 98 EE 61 F2 84 3F 12  8t...PN....a..?.
+
+]
+***
+main, handling exception: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+%% Invalidated:  [Session-2, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256]
+main, SEND TLSv1.2 ALERT:  fatal, description = internal_error
+main, WRITE: TLSv1.2 Alert, length = 2
+main, called closeSocket()
+javax.net.ssl.SSLException: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+	at java.base/sun.security.ssl.Alerts.getSSLException(Alerts.java:214)
+	at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1969)
+	at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1921)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1904)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1436)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:567)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:329)
+	at TestHttps.main(TestHttps.java:8)
+Caused by: java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+	at java.base/sun.security.validator.PKIXValidator.<init>(PKIXValidator.java:89)
+	at java.base/sun.security.validator.Validator.getInstance(Validator.java:181)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.getValidator(X509TrustManagerImpl.java:330)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrustedInit(X509TrustManagerImpl.java:180)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:192)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:133)
+	at java.base/sun.security.ssl.ClientHandshaker.checkServerCerts(ClientHandshaker.java:1825)
+	at java.base/sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1655)
+	at java.base/sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:260)
+	at java.base/sun.security.ssl.Handshaker.processLoop(Handshaker.java:1086)
+	at java.base/sun.security.ssl.Handshaker.processRecord(Handshaker.java:1020)
+	at java.base/sun.security.ssl.SSLSocketImpl.processInputRecord(SSLSocketImpl.java:1137)
+	at java.base/sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1074)
+	at java.base/sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at java.base/sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1402)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1429)
+	... 8 more
+Caused by: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
+	at java.base/java.security.cert.PKIXParameters.setTrustAnchors(PKIXParameters.java:200)
+	at java.base/java.security.cert.PKIXParameters.<init>(PKIXParameters.java:120)
+	at java.base/java.security.cert.PKIXBuilderParameters.<init>(PKIXBuilderParameters.java:104)
+	at java.base/sun.security.validator.PKIXValidator.<init>(PKIXValidator.java:86)
+	... 23 more
