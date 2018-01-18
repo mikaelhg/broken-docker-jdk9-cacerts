@@ -1,7 +1,6 @@
 /*
   KeyStore check by @mikaelhg
   javac --release 8 GenerateKeystore.java
-  
  */
 
 import java.io.ByteArrayOutputStream;
@@ -25,19 +24,20 @@ class GenerateKeystore {
         }
     }
 
-    private static void testKeyStore(final KeyStore keyStore) throws Exception {
+    private static void testKeyStore(final KeyStore keyStore, final String[] passwords) throws Exception {
         keyStore.load(null, null);
-        storeAndPrint(keyStore, "randompassword");
-        storeAndPrint(keyStore, "changeit");
-        storeAndPrint(keyStore, "");
+        for (final String pwd : passwords) {
+            storeAndPrint(keyStore, pwd);
+        }
     }
 
     public static void main(String[] args) throws Exception {
         final String[] types = {"JKS", "PKCS12", KeyStore.getDefaultType()};
+        final String[] passwords = {"randompassword", "changeit", ""};
         for (final String storeType : types) {
             System.out.printf("\n%s\n", storeType);
             final KeyStore keyStore = KeyStore.getInstance(storeType);
-            testKeyStore(keyStore);
+            testKeyStore(keyStore, passwords);
         }
     }
 
