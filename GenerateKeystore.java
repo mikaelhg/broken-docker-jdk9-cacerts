@@ -19,6 +19,11 @@ class GenerateKeystore {
             }
             final byte firstByte = baos.toByteArray()[0];
             System.out.printf("%15s - %02x\n", password, firstByte);
+            final StringBuilder sb = new StringBuilder();
+            for (byte b : baos.toByteArray()) {
+                sb.append(String.format("\\x%02x", b));
+            }
+            System.out.println(sb.toString());
         } catch (Exception e) {
             System.out.println(e);
         }
