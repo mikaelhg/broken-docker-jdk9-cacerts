@@ -1,5 +1,19 @@
 The Docker image openjdk:9-jdk has a broken cacerts file.
 
+---------------
+
+# TL;DR Workaround
+
+Used `pyjks` to create a minimal JKS file with an empty password, since JDK's `keytool` doesn't do that anymore. From there on, we'll rely on the certificate compatibility mode.
+
+```bash
+echo "storepass=''" >> /etc/default/cacerts
+echo -e "\xfe\xed\xfe\xed\x00\x00\x00\x02\x00\x00\x00\x00\x57\xbe\xbc\x27\x62\xa2\x1d\x70\xff\xf2\x18\xdd\x59\x68\x01\x1f\xfe\x42\x3a\x69" > /etc/ssl/certs/java/cacerts
+/var/lib/dpkg/info/ca-certificates-java.postinst configure
+```
+
+---------------
+
 ```text
 java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
 ```
