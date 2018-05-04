@@ -1,8 +1,12 @@
 # Ubuntu 18.04, Debian - broken Java `cacerts` file
 
-Ubuntu 18.04 and Debian Java 9, 10 and 11 `cacerts` file is now `pkcs12` format, and requires a password.
+Ubuntu 18.04 and Debian Java 9, 10 and 11 `cacerts` file is now in the `pkcs12` format,
+and requires a password to open.
 
-It used to be in the `jks` format, which worked fine with an empty password.
+It used to be in the `jks` format, which worked fine with an default ("changeit") and empty passwords.
+
+(CA certificates are public information, and only very very rarely would they need to be secret,
+for a very specific business need you would be aware of.)
 
 Java programs which need to use JDK's SSL functionality have to access the `cacerts`
 file, and the only way to get the decryption password to the JVM is by using the
@@ -31,6 +35,8 @@ which must have placed high in the "least informative error message of 2018" com
 https://gist.github.com/mikaelhg/527204e746984cf9a33f7910bb8b4cb6
 
 docker-library/openjdk/issues/145
+
+[Ubuntu 1769013: Please merge ca-certificates-java 20180413 (main) from Debian unstable (main)](https://bugs.launchpad.net/ubuntu/+source/ca-certificates-java/+bug/1769013)
 
 [Ubuntu 1739631: Fresh install with JDK 9 can't use the generated PKCS12 cacerts keystore file](https://bugs.launchpad.net/ubuntu/+source/ca-certificates-java/+bug/1739631)
 
@@ -78,11 +84,13 @@ Test various solutions on different platforms:
     docker run -it --rm -v `pwd`:/app:ro -w /app ubuntu:18.04 bash tests/test_02.sh
     docker run -it --rm -v `pwd`:/app:ro -w /app ubuntu:18.04 bash tests/test_03.sh
     docker run -it --rm -v `pwd`:/app:ro -w /app ubuntu:18.04 bash tests/test_04.sh
+    docker run -it --rm -v `pwd`:/app:ro -w /app ubuntu:18.04 bash tests/test_05.sh
 
     docker run -it --rm -v `pwd`:/app:ro -w /app debian:testing bash tests/test_01.sh
     docker run -it --rm -v `pwd`:/app:ro -w /app debian:testing bash tests/test_02.sh
     docker run -it --rm -v `pwd`:/app:ro -w /app debian:testing bash tests/test_03.sh
     docker run -it --rm -v `pwd`:/app:ro -w /app debian:testing bash tests/test_04.sh
+    docker run -it --rm -v `pwd`:/app:ro -w /app debian:testing bash tests/test_05.sh
 
 ## Exception
 
